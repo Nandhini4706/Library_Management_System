@@ -20,11 +20,11 @@ public class Main{
                 String name=sc.nextLine();
                 System.out.println("Enter password");
                 String pass=sc.nextLine();
-                System.out.println(         "-----------------------------      ");
-                System.out.println(         "|            LOGIN                |");
-                System.out.println(         "| USER NAME: " +name+"            |");
-                System.out.println(         "| PASSWORD: " +pass+"             |");
-                System.out.println(         "-----------------------------      ");
+                System.out.println("         "+"-----------------------------      ");
+                System.out.println("         "+"|           LOGIN           |");
+                System.out.println("         "+"| USER NAME: " +name+"            |");
+                System.out.println("         "+"| PASSWORD: " +pass+"             |");
+                System.out.println("         "+"-----------------------------      ");
                 if(pass.contains("lily")){
                     System.out.println("welcome");
                 }
