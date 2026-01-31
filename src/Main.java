@@ -15,14 +15,14 @@ public class Main{
             case 1:
                 System.out.println("---------------------------Welcome Librarian-------------------------");
                 System.out.println();
+                System.out.println("Enter name");
+                String name=sc.nextLine();
+                System.out.println("Enter password");
+                String pass=sc.nextLine();
                 System.out.println("-----------------------------");
                 System.out.println("|            LOGIN          |");
-
-                System.out.print("| USER NAME:                |");
-                String name=sc.nextLine();
-
-                System.out.println("| PASSWORD:                 |");
-                String pass=sc.nextLine();
+                System.out.println("| USER NAME:                " +name +"|");
+                System.out.println("| PASSWORD:                 " +pass +"|");
                 System.out.println("-----------------------------");
                 if(pass.contains("lily")){
                     System.out.println("welcome");
