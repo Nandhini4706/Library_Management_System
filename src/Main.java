@@ -6,6 +6,7 @@ import Student.StudentMenu;
 public class Main{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
+        Library library =new Library();
 
 
         System.out.println("-------------------Library Management System-----------------------");
@@ -31,7 +32,10 @@ public class Main{
                 if(pass.contains("lily")){
                     System.out.println("welcome");
                 }
-
+            case 2:
+                System.out.println("\n--------------------Welcome Student----------------------");
+                new StudentMenu().show(library);
+                break;
         }
 
     }
