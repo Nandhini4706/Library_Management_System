@@ -18,7 +18,7 @@ public class Main{
         sc.nextLine();
         switch(n){
             case 1:
-                System.out.println("---------------------------Welcome Librarian-------------------------");
+                System.out.println("----------------------------Welcome Librarian--------------------------");
                 System.out.println();
                 System.out.println("Enter name");
                 String name=sc.nextLine();
